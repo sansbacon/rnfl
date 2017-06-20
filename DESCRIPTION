@@ -1,0 +1,24 @@
+Package: rnfl
+Type: Package
+Title: Code to accompany NFL Hacks book
+Version: 0.1.0
+Date: 2017-06-07
+Author: Eric Truett
+Maintainer: Eric Truett <eric.truett@gmail.com>
+Description: Code to accompany NFL Hacks book.
+License: MIT + file license
+Encoding: UTF-8
+LazyData: true
+Depends:
+    R (>= 3.2),
+    dplyr, 
+    ggplot2,
+    magrittr,
+    reshape2,
+    zoo,
+    TTR,
+    caret,
+    ranger,
+    RPostgreSQL
+URL: http://www.github.com/sansbacon/rnfl
+VignetteBuilder: knitr
